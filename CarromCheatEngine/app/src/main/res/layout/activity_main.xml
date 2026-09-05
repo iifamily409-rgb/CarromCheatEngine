@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="16dp">
+    <TextView android:id="@+id/tv_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Root status: checking..." android:textSize="16sp" android:layout_marginBottom="20dp"/>
+    <Button android:id="@+id/btn_select_process" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Select Process" />
+    <Button android:id="@+id/btn_open_lua" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Open Lua Editor" />
+    <Button android:id="@+id/btn_start_overlay" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Start Floating Overlay" />
+</LinearLayout>

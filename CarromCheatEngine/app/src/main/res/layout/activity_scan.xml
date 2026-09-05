@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="16dp">
+    <EditText android:id="@+id/et_value" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Enter value" android:inputType="numberDecimal" />
+    <Spinner android:id="@+id/spinner_type" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <Button android:id="@+id/btn_scan" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Scan" />
+    <Button android:id="@+id/btn_filter" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Filter Results" />
+    <ListView android:id="@+id/list_results" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" />
+</LinearLayout>
